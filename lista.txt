@@ -1,0 +1,8 @@
+mainfooter - css
+alla charts - css
+div för maintext - maincontent.php
+maintext - css
+maintext span.fill - css
+function drawChart4 - js
+caption - css
+alle charts width - css

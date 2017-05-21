@@ -1,0 +1,198 @@
+/*Parallax design*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Verdana", sans-serif;
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(road.jpeg);
+
+    
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed*/ 
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+
+.caption span.border {
+  background-color: whitesmoke;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.maintext {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;  
+    color: #333;    
+}
+
+.maintext span.fill {
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+
+.chart {
+    position: absolute;
+    left: 1%;
+    top: 60%;
+    width: auto;
+    text-align: center;
+    color: #000;
+}
+
+.chart2 {
+    position: absolute;
+    left: 41%;
+    top: 110%;
+    width: auto;
+    text-align: center;
+    color: #000;
+}
+
+.chart3 {
+    position: absolute;
+    left: 1%;
+    top: 160%;
+    width: auto;
+    text-align: center;
+    color: #000;
+}
+
+.chart4 {
+    position: absolute;
+    left: 1%;
+    top: 250%;
+    width: auto;
+    text-align: center;
+    color: #000;
+}
+
+
+.chart5 {
+    position: absolute;
+    left: 41%;
+    top: 210%;
+    width: auto;
+    text-align: center;
+    color: #000;
+}
+
+
+
+#mainfooter{
+    background-color: whitesmoke;
+    color:black;
+    text-align: center;
+    font-size: 11px;
+    
+}
+/*Meny design*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgray;
+}
+
+/* Textdesign */
+.contact {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font: "Verdana", sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.about {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font: "Verdana", sans-serif;
+    position: absolute;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+/* Buttons */
+#btn2016, #btn2015, #btn2014, #btn2013, #btn2012, #btn2011, #btn2010, #btn2009, #btn2008, #btn2007, #btn2006, #btn2005, #btn2004, #btn2003, #btn0316 {
+    background-color: white;
+    border: darkgray;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#btn2016:hover, #btn2015:hover, #btn2014:hover, #btn2013:hover, #btn2012:hover, #btn2011:hover, #btn2010:hover, #btn2009:hover, #btn2008:hover, #btn2007:hover, #btn2006:hover, #btn2005:hover, #btn2004:hover, #btn2003:hover, #btn0316:hover {
+    background-color: darkgray;
+}
+
+
+[href^="mailto:"]
+{ 
+  font-family: "Verdana", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+[href]
+{ 
+  font-family: "Verdana", sans-serif;
+  color: black;
+  font-size: 20px;
+}
